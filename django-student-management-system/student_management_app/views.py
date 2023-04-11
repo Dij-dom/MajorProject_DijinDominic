@@ -6,7 +6,16 @@ from django.contrib import messages
 
 from student_management_app.EmailBackEnd import EmailBackEnd
 
-
+def main_homepage_h(request):
+    return render(request,'index_mainhomepage.html')
+def header_footer(request):
+    return render(request,'header_footer.html')
+def main_gallerypage_h(request):
+    return render(request,'maingallerypage.html')
+def contact_main(request):
+    return render(request,'contact_main.html')
+def testi_main(request):
+    return render(request,'testi_main.html')
 def home(request):
     return render(request, 'index.html')
 

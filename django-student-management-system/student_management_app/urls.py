@@ -8,6 +8,7 @@ urlpatterns = [
     path('', views.main_homepage_h, name="main_homepage_h"),
     path('', views.header_footer, name="header_footer"),
     path('gallery', views.main_gallerypage_h, name="main_gallerypage_h"),
+    path('apply', views.main_applypage_h, name="main_applypage_h"),
     path('contact', views.contact_main, name="contact_main"),
     path('testimonials', views.testi_main, name="testi_main"),
     path('loginportal', views.loginPage, name="login"),

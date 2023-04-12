@@ -12,6 +12,8 @@ def header_footer(request):
     return render(request,'header_footer.html')
 def main_gallerypage_h(request):
     return render(request,'maingallerypage.html')
+def main_applypage_h(request):
+    return render(request,'apply_m.html')
 def contact_main(request):
     return render(request,'contact_main.html')
 def testi_main(request):

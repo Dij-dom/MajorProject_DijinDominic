@@ -3,9 +3,9 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
       <a href="{% url 'admin_home' %}" class="brand-link">
-        <img src="{% static 'dist/img/AdminLTELogo.png' %}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+        <img src="{% static 'SJUHEmblemTrans_NEW.png' %}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
             style="opacity: .8">
-        <span class="brand-text font-weight-light">Open University</span>
+        <span class="brand-text font-weight-light">SJU Hostel</span>
       </a>
 
       <!-- Sidebar -->
@@ -42,7 +42,7 @@
               <a href="{{ manage_staff }}" class="nav-link {% if request.path == manage_staff %} active {% endif %} {% if request.path == edit_staff %} active {% endif %}">
                 <i class="nav-icon fas fa-chalkboard-teacher"></i>
                 <p>
-                  Manage Staff
+                  Manage Wing Leader
                 </p>
               </a>
             </li>
@@ -52,7 +52,7 @@
               <a href="{{ add_staff }}" class="nav-link {% if request.path == add_staff %} active {% endif %}">
                 <i class="nav-icon fas fa-th"></i>
                 <p>
-                  Add Staff
+                  Add Wing Leaders
                 </p>
               </a>
             </li>
@@ -84,7 +84,7 @@
               <a href="{{ manage_course }}" class="nav-link {% if request.path == manage_course %} active {% endif %} {% if request.path == edit_course %} active {% endif %}">
                 <i class="nav-icon fas fa-chalkboard"></i>
                 <p>
-                  Manage Course
+                  Manage Floor
                 </p>
               </a>
             </li>
@@ -94,7 +94,7 @@
               <a href="{{ add_course }}" class="nav-link {% if request.path == add_course %} active {% endif %}">
                 <i class="nav-icon fas fa-th"></i>
                 <p>
-                  Add Course
+                  Add Floor
                 </p>
               </a>
             </li>
@@ -105,7 +105,7 @@
               <a href="{{ manage_subject }}" class="nav-link {% if request.path == manage_subject %} active {% endif %} {% if request.path == edit_subject %} active {% endif %}">
                 <i class="nav-icon fas fa-book"></i>
                 <p>
-                  Manage Subject
+                  Manage Room
                 </p>
               </a>
             </li>
@@ -115,7 +115,7 @@
               <a href="{{ add_subject }}" class="nav-link {% if request.path == add_subject %} active {% endif %}">
                 <i class="nav-icon fas fa-th"></i>
                 <p>
-                  Add Subject
+                  Add Room
                 </p>
               </a>
             </li>
@@ -168,7 +168,7 @@
               <a href="{{ staff_feedback_message }}" class="nav-link {% if request.path == staff_feedback_message %} active {% endif %}">
                 <i class="nav-icon fas fa-th"></i>
                 <p>
-                  Stafff Feedback
+                  Wing Leaders Feedback
                 </p>
               </a>
             </li>
@@ -188,7 +188,7 @@
               <a href="{{ staff_leave_view }}" class="nav-link {% if request.path == staff_leave_view %} active {% endif %}">
                 <i class="nav-icon fas fa-th"></i>
                 <p>
-                  Staff Leave
+                  Wing Leaders Leave
                 </p>
               </a>
             </li>

@@ -1010,3 +1010,7 @@ footer .content {
     height: 170vh;
   }
 }
+footer .box_heho a{
+  size: 5px;
+  color: #F3F3F3;
+}

@@ -20,13 +20,8 @@ def testi_main(request):
     return render(request,'testi_main.html')
 def home(request):
     return render(request, 'index.html')
-
-
 def loginPage(request):
     return render(request, 'login.html')
-
-
-
 def doLogin(request):
     if request.method != "POST":
         return HttpResponse("<h2>Method Not Allowed</h2>")
